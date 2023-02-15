@@ -4,58 +4,109 @@ E89292
 FBDD8E (Fondo)
 F6BABA*/
 
-#cuerpo{
-    background-color: #FBDD8E;
-  }
+#cuerpo {
+  background-color: #FBDD8E;
+}
 
 /* Estilo de todas las etiquetas h1 */
 h1 {
-font-size: 36px;
-color: #0B5B67;
-Font-family: sans-serif;
+  font-size: 36px;
+  color: #0B5B67;
+  Font-family: sans-serif;
 }
 
 h2 {
-    font-size: 36px;
-    color: #E89292;
-    Font-family: sans-serif;
-    }
+  font-size: 36px;
+  color: #E89292;
+  Font-family: sans-serif;
+}
 
 /* Propiedades de color, ancho, relleno, borde a todos los botones del sitio que tengan asignado el id #boton. */
 
 #boton {
-background-color: rgb(168, 167, 167);
-color: #fff;
-width: 100px;
-padding: 20px;
-border: 1px solid #000;
-border-radius: 5px;
+  background-color: rgb(168, 167, 167);
+  color: #fff;
+  width: 100px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
 }
 
 /* párrafos de tu web escritos en tipografía sans-serif, 14px de cuerpo de letra, interlineado de 18px y  separación de 20 píxeles entra párrado y párrafo*/
 #Descripcion {
-font-family: 'sans-serif';
-font-size: 14px;
-color: rgb(0, 0, 0);
-line-height: 18px;
-margin-bottom: 20px;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  line-height: 31px;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  font-family: math;
 }
 
 #Registrado {
-font-family: 'Open Sans';
-font-size: 14px;
-color: rgb(153, 153, 153);
-line-height: 18px;
-margin-bottom: 20px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+  line-height: 18px;
+  margin-bottom: 20px;
 }
 
 
-#collares{
-display: inline;
+#nosotros {
+  padding: 4em;
 }
- #collares{
-margin-bottom: 5px;
-margin-left: 10px;
-margin-right: 12px;
-margin-top: 15px;
+
+
+#collares {
+  display: inline;
+}
+
+#collares {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 12px;
+  margin-top: 15px;
+}
+
+.listStyle {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  font-family: monospace;
+  padding: 1em;
+  font-size: 20px;
+  background-color: antiquewhite;
+  border-style: solid;
+  border-width: 1px;
+  color: burlywood;
+  text-transform: uppercase;
+  inline-size: -webkit-fill-available;
+  text-align: center;
+}
+
+.listItem:hover {
+  background-color: gray;
+}
+
+.active {
+  background-color: gainsboro;
+}
+
+
+
+.listAnchor {
+  text-decoration: none;
+  color: darkslategray;
+  font-weight: 600;
 }
