@@ -1,0 +1,54 @@
+// Colores a usar
+$color-1: #0B5B67;
+$color-2: #E89292;
+$color-3: #FBDD8E;
+$color-4: #F6BABA;
+
+#cuerpo {
+  background-color: $color-3;
+}
+
+// Estilo de todas las etiquetas h1
+h1 {
+  font-size: 36px;
+  color: $color-1;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 36px;
+  color: $color-2;
+  font-family: sans-serif;
+}
+
+// Propiedades de color, ancho, relleno, borde a todos los botones del sitio que tengan asignado el id #boton.
+#boton {
+  background-color: rgb(168, 167, 167);
+  color: #fff;
+  width: 100px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+// párrafos de tu web escritos en tipografía sans-serif, 14px de cuerpo de letra, interlineado de 18px y separación de 20 píxeles entra párrado y párrafo
+#Descripcion, #Registrado {
+  font-family: 'sans-serif';
+  font-size: 14px;
+  color: #000;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+#Registrado {
+  font-family: 'Open Sans';
+  color: #999;
+}
+
+#collares {
+  display: inline;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 12px;
+  margin-top: 15px;
+}

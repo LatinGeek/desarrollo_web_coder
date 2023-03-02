@@ -1,0 +1,57 @@
+/* Colores a usar */
+$color1: #0B5B67;
+$color2: #E89292;
+$color3: #FBDD8E;
+$color4: #F6BABA;
+
+#cuerpo{
+background-color: $color3;
+}
+
+/* Estilo de todas las etiquetas h1 */
+h1 {
+font-size: 36px;
+color: $color1;
+font-family: sans-serif;
+}
+
+h2 {
+font-size: 36px;
+color: $color2;
+font-family: sans-serif;
+}
+
+/* Propiedades de color, ancho, relleno, borde a todos los botones del sitio que tengan asignado el id #boton. */
+#boton {
+background-color: rgb(168, 167, 167);
+color: #fff;
+width: 100px;
+padding: 20px;
+border: 1px solid #000;
+border-radius: 5px;
+}
+
+/* párrafos de tu web escritos en tipografía sans-serif, 14px de cuerpo de letra, interlineado de 18px y separación de 20 píxeles entre párrado y párrafo*/
+#Descripcion {
+font-family: 'sans-serif';
+font-size: 14px;
+color: rgb(0, 0, 0);
+line-height: 18px;
+margin-bottom: 20px;
+}
+
+#Registrado {
+font-family: 'Open Sans';
+font-size: 14px;
+color: rgb(153, 153, 153);
+line-height: 18px;
+margin-bottom: 20px;
+}
+
+#collares{
+display: inline;
+margin-bottom: 5px;
+margin-left: 10px;
+margin-right: 12px;
+margin-top: 15px;
+}
